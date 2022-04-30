@@ -13,81 +13,114 @@ function Story() {
       <div className="story">
             <div className="story-container">
                 <div className="perfil-story">
-                    <img src={perfil} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name18</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil2} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil2} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name2</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil3} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil3} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name5</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil4} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil4} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name3</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil5} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil5} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name32</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil6} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil6} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name22</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil7} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil7} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name98</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil8} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil8} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name0</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name18</h1>
                 </div>
+
                 <div className="perfil-story">
-                    <img src={perfil2} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil2} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name2</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil3} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil3} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name5</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil4} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil4} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name3</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil5} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil5} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name32</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil6} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil6} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name22</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil7} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil7} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name98</h1>
                 </div>
 
                 <div className="perfil-story">
-                    <img src={perfil8} className="foto-story" alt="perfil" />
+                    <div className="story-border">
+                        <img src={perfil8} className="foto-story" alt="perfil" />
+                    </div>  
                     <h1>user.name0</h1>
                 </div>
             </div>

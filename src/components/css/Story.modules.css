@@ -32,12 +32,22 @@
     width: 10%;
     margin: 0px 15px;
   }
+    
+  .story-border{
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    display: flex;
+    margin: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient( #c82d8e, #f99d4c);
+  }  
   
   .foto-story{
-    width: 60px;
-    height: 60px;
-    margin: 11.5px auto 0px 7px;
-    border: 2px solid #cb3189;
+    width: 58px;
+    height: 58px;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -45,6 +55,6 @@
   .story-container h1{
     width: 100%;
     font-size: 13px;
-    margin: 0 auto 15px auto;
+    margin: -5px auto 15px auto;
     font-weight: 600;
   }

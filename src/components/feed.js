@@ -13,7 +13,7 @@ function Feed(props) {
             <div className="foto1">
                 <div className="infomacoes-perfil">
                     <div className="perfil-feed">
-                        <img src={props.perfil} className="foto-perfil" alt="perfil" />
+                        <div className="story-border-feed"><img src={props.perfil} className="foto-perfil" alt="perfil" /></div>                        
                         <h1>{props.nome}</h1>
                         <h2 className="localizacao">{props.localizacao}</h2>
                     </div>     
