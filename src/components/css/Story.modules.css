@@ -1,0 +1,50 @@
+.story{
+    float: left;
+    margin-top: 40px;
+    width: 70%;
+  }
+  
+  .story-container{
+    width: 90%;
+    height: auto;
+    border: 0.1px solid #bdbdbd;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+  
+  .story-container::-webkit-scrollbar {
+    width: 10% !important;
+    height: 5px;
+  }
+  
+  .story-container::-webkit-scrollbar-track {background: transparent;}
+  
+  .story-container::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg, rgba(255,144,0,1), rgba(215,46,146,1));
+    border-radius: 20px;
+  }
+  
+  .perfil-story{
+    width: 10%;
+    margin: 0px 15px;
+  }
+  
+  .foto-story{
+    width: 60px;
+    height: 60px;
+    margin: 11.5px auto 0px 7px;
+    border: 2px solid #cb3189;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .story-container h1{
+    width: 100%;
+    font-size: 13px;
+    margin: 0 auto 15px auto;
+    font-weight: 600;
+  }
