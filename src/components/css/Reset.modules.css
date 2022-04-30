@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body{width: 100%;}
+
+  .container{
+    width: 100%;
+    max-width: 975px;
+    text-align: center;
+    margin: auto; 
+  }
+  
+  .container-header{
+    width: 95%;
+    text-align: center;
+    margin: -15px auto 0px auto;
+  }
+  
+  .main{background-color: #fafafa;}
