@@ -11,8 +11,8 @@ function Perfil() {
                 <div className="mudar-perfil">
                     <div className="perfil-informacoes">
                         <img src={perfil} className="foto-informacoes" alt="perfil" />
-                        <h1>username18</h1>
-                        <p>username18</p>
+                        <h1>user.name18</h1>
+                        <p>user.name18</p>
                     </div>
 
                     <p className="mudar">Mudar</p>
@@ -27,8 +27,8 @@ function Perfil() {
                     <div className="sugestoes-container">
                         <div className="perfil-sugestoes">
                             <img src={perfil} className="foto-sugestoes" alt="perfil" />
-                            <h1>username19</h1>
-                            <p>Seguido(a) por username2 e ...</p>
+                            <h1>user.name19</h1>
+                            <p>Seguido(a) por user.name2 e ...</p>
                         </div>
 
                         <p className="seguir">Seguir</p>
@@ -37,8 +37,8 @@ function Perfil() {
                     <div className="sugestoes-container">
                         <div className="perfil-sugestoes">
                             <img src={perfil2} className="foto-sugestoes" alt="perfil" />
-                            <h1>username90</h1>
-                            <p>Seguido(a) por username98 e ...</p>
+                            <h1>user.name90</h1>
+                            <p>Seguido(a) por user.name98 e ...</p>
                         </div>
 
                         <p className="seguir">Seguir</p>
@@ -47,8 +47,8 @@ function Perfil() {
                     <div className="sugestoes-container">
                         <div className="perfil-sugestoes">
                             <img src={perfil3} className="foto-sugestoes" alt="perfil" />
-                            <h1>username56</h1>
-                            <p>Seguido(a) por username5 e ...</p>
+                            <h1>user.name56</h1>
+                            <p>Seguido(a) por user.name5 e ...</p>
                         </div>
 
                         <p className="seguir">Seguir</p>
@@ -57,8 +57,8 @@ function Perfil() {
                     <div className="sugestoes-container">
                         <div className="perfil-sugestoes">
                             <img src={perfil4} className="foto-sugestoes" alt="perfil" />
-                            <h1>username82</h1>
-                            <p>Seguido(a) por username2 e ...</p>
+                            <h1>user.name82</h1>
+                            <p>Seguido(a) por user.name22 e ...</p>
                         </div>
 
                         <p className="seguir">Seguir</p>

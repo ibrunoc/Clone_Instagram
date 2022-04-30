@@ -41,13 +41,13 @@
   
   .localizacao{
     font-size: 12px;
-    margin: 32px -83px;
+    margin: 32px 0px 0px -85px;
     font-weight: 500;
   }
   
   .pontos{
-    width: 40px;
-    height: 12px;
+    width: 30px;
+    height: 10px;
     margin: 26px 30px;
     cursor: pointer;
   }
