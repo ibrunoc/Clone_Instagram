@@ -72,13 +72,13 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 0px 10px
+    padding: 0px 15px
   }
   
   .interacao img{
     width: 20px;
     height: 20px;
-    margin: 5px 0px 5px 5px;
+    margin: 5px 10px 5px 5px;
     cursor: pointer;
   }
 
