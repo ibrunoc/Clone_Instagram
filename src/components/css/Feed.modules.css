@@ -58,7 +58,7 @@
   
   .pontos{
     width: 30px;
-    height: 2px;
+    height: 3px;
     margin: 26px 30px;
     cursor: pointer;
   }
@@ -78,7 +78,7 @@
   .interacao img{
     width: 20px;
     height: 20px;
-    margin: 5px 20px;
+    margin: 5px 5px 5px 20px;
     cursor: pointer;
   }
   
