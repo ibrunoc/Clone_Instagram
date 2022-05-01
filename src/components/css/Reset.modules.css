@@ -6,6 +6,8 @@
   }
   
   html, body{width: 100%;}
+  
+  .main{background-color: #fafafa;}
 
   .container{
     width: 100%;
@@ -13,11 +15,3 @@
     text-align: center;
     margin: auto; 
   }
-  
-  .container-header{
-    width: 95%;
-    text-align: center;
-    margin: -15px auto 0px auto;
-  }
-  
-  .main{background-color: #fafafa;}
