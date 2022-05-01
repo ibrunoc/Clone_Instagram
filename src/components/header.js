@@ -10,26 +10,28 @@ function Header() {
   return (
     <>
       <header>
-        <div className="container-header">
-            <div>
-              <img src={logo} className="logo" alt="logo" />
-            </div>       
+        <div className="header-border">
+          <div className="container-header">
+              <div>
+                <img src={logo} className="logo" alt="logo" />
+              </div>       
 
-            <div className="barra">
-              <input type="text" className="pesquisa" placeholder="Pesquisa"></input>
-            </div>
-
-            <nav>
-              <div className="links">
-                <img src={home} className="home" alt="home" />
-                <img src={mensagem} className="mensagem" alt="mensagem" />
-                <img src={adicionar} className="adicionar" alt="adicionar" />
-                <img src={bussola} className="bussola" alt="bussola" />
-                <img src={coracao} className="coracao" alt="coração" />
-                <img src={perfil} className="perfil" alt="perfil" />
+              <div className="barra">
+                <input type="text" className="pesquisa" placeholder="Pesquisa"></input>
               </div>
-            </nav>
-        </div>
+
+              <nav>
+                <div className="links">
+                  <img src={home} className="home" alt="home" />
+                  <img src={mensagem} className="mensagem" alt="mensagem" />
+                  <img src={adicionar} className="adicionar" alt="adicionar" />
+                  <img src={bussola} className="bussola" alt="bussola" />
+                  <img src={coracao} className="coracao" alt="coração" />
+                  <img src={perfil} className="perfil" alt="perfil" />
+                </div>
+              </nav>
+          </div>
+        </div>        
       </header>
     </>
   );
