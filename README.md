@@ -2,7 +2,7 @@ Olá, tudo bem?
 
 Neste projeto eu fiz um clone do Instagram utilizando ReactJS
 
-![Instagram](https://user-images.githubusercontent.com/68878579/166253521-d523c5f4-6e68-4fcc-8e2e-fee35c93858c.png)
+![Instagram](https://user-images.githubusercontent.com/68878579/166255702-8e4a2639-5967-4952-827d-2dcc5ae8041c.png)
 
 # Getting Started with Create React App
 
