@@ -17,18 +17,6 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  
-  .story-border-feed{
-    width: 42px;
-    height: 42px;
-    border-radius: 50%;
-    display: flex;
-    margin: 10px 5px;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    background: linear-gradient( #c82d8e, #f99d4c);
-  }
 
   .perfil-feed{
     width: 100%;
@@ -43,6 +31,18 @@
     height: 38px;
     margin: 11px 10px;
     border-radius: 50%;
+  }
+  
+  .story-border-feed{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    margin: 10px 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: linear-gradient( #c82d8e, #f99d4c);
   }
 
   .text-feed{
