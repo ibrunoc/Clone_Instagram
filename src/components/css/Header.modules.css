@@ -40,7 +40,7 @@ header{
   .pesquisa{
     width: 45%;
     height: 35px;
-    padding-left: 30px;
+    padding: 0px 20px 0px 30px;
     border-radius: 10px;
     background-color:#dfdede;
       background-image:url(../imagens/lupa.png);
