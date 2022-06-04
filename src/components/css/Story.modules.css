@@ -1,24 +1,55 @@
 .story{
     float: left;
+    margin-left: 60px;
     margin-top: 100px;
-    width: 70%;
+    width: 55%;
+    position: relative;
   }
   
   .story-container{
     width: 90%;
     height: auto;
-    border: 0.1px solid #bdbdbd;
+    border: 0.1px solid #dddddd;
     border-radius: 7px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     overflow: hidden;
-    overflow-x: scroll;
+    scroll-behavior: smooth;
   }
   
   .story-container::-webkit-scrollbar {
     width: 10% !important;
     height: 5px;
+  }
+
+  .buttons{
+    position: absolute;
+    width: 89%;
+    margin-top: 20px;
+    z-index: 7;
+  }
+
+  .button-left{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  .button-right{   
+    position: absolute;
+    right: 0; 
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 50%;
+    cursor: pointer;
   }
   
   .story-container::-webkit-scrollbar-track {background: transparent;}
@@ -53,8 +84,10 @@
   }
   
   .story-container h1{
-    width: 100%;
+    width: 74px;
     font-size: 13px;
-    margin: -5px auto 15px auto;
+    margin: -5px 70px 15px auto;
     font-weight: 600;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }

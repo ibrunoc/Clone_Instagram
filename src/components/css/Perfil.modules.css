@@ -1,8 +1,8 @@
 .informacoes{
     padding-top: 35px;
-    width: 21%;
+    width: 16%;
     max-width: 500px;
-    margin-left: 650px;
+    margin-left: 580px;
     position: fixed;
     margin-top: 50px;
   }
@@ -75,9 +75,9 @@
   }
   
   .mudar{
-    color: blue;
+    color: rgb(0, 119, 255);
     font-size: 13px;
-    margin: 25px 0 0 0;
+    margin: 5px 0 0 0;
     font-weight: 400;
     cursor: pointer;
   }
@@ -110,7 +110,7 @@
     width: 35px;
     height: 35px;
     display: flex;
-    margin: 25px auto 0px -15px;
+    margin: auto auto 0px -15px;
     border-radius: 50%;
     cursor: pointer;
   }
@@ -134,9 +134,9 @@
   }
   
   .seguir{
-    color: blue;
+    color: rgb(0, 119, 255);
     font-size: 13px;
-    margin: 25px 0 0 0;
+    margin: 5px 0 0 0;
     font-weight: 400;
     cursor: pointer;
   }

@@ -6,12 +6,33 @@ import perfil5 from './imagens/perfil5.jpg';
 import perfil6 from './imagens/perfil6.jpg';
 import perfil7 from './imagens/perfil7.jpg';
 import perfil8 from './imagens/perfil8.jpg';
+import { BiChevronRight, BiChevronLeft } from 'react-icons/bi'
+import { useRef, useState } from 'react'
 
 function Story() {
+    const storiesRef = useRef(null)
+    const [showleft, setShowleft] = useState(false)
+    const [showright, setShowright] = useState(true)
+  
+    const onScroll = () => {
+      if (
+        storiesRef.current.scrollLeft ===
+        storiesRef.current.scrollWidth - storiesRef.current.clientWidth
+      ) {
+        setShowright(false)
+      } else {
+        setShowright(true)
+      }
+      if (storiesRef.current.scrollLeft > 0) {
+        setShowleft(true)
+      } else {
+        setShowleft(false)
+      }
+    }
   return (
     <>
-      <div className="story">
-            <div className="story-container">
+       <div className="story">
+          <div className="story-container" onScroll={onScroll} ref={storiesRef}>     
                 <div className="perfil-story">
                     <div className="story-border">
                         <img src={perfil} className="foto-story" alt="perfil" />
@@ -123,8 +144,20 @@ function Story() {
                     </div>  
                     <h1>user.name0</h1>
                 </div>
+                <div className="buttons">
+                <button onClick={ ()=>{
+                            storiesRef.current.scrollLeft = storiesRef.current.scrollLeft - 600
+                        }}>
+                        <BiChevronLeft className={`button-left ${showleft ? "visible" : "invisible"} `}/>
+                    </button>
+                    <button onClick={ ()=>{
+                            storiesRef.current.scrollLeft = storiesRef.current.scrollLeft + 600
+                        }}>
+                        <BiChevronRight className={`button-right ${showright ? "visible" : "invisible"} `}/>
+                    </button>
+              </div>
             </div>
-      </div>
+        </div>
     </>
   );
 }

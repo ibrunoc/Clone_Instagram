@@ -2,6 +2,7 @@ import perfil from './imagens/perfil.jpg';
 import perfil2 from './imagens/perfil2.jpg';
 import perfil3 from './imagens/perfil3.jpg';
 import perfil4 from './imagens/perfil4.jpg';
+import perfil5 from './imagens/perfil5.jpg';
 
 function Perfil() {
   return (
@@ -66,6 +67,22 @@ function Perfil() {
                         <div className="perfil-sugestoes">
                             <div>
                                 <img src={perfil3} className="foto-sugestoes" alt="perfil" />
+                                <div className="text-perfil2">
+                                    <h1>user.name91</h1>
+                                    <p>Seguido(a) por user.name98 e ...</p>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <p className="seguir">Seguir</p>
+                            </div>                            
+                        </div>  
+                    </div>
+
+                    <div className="sugestoes-container">
+                        <div className="perfil-sugestoes">
+                            <div>
+                                <img src={perfil5} className="foto-sugestoes" alt="perfil" />
                                 <div className="text-perfil2">
                                     <h1>user.name91</h1>
                                     <p>Seguido(a) por user.name98 e ...</p>

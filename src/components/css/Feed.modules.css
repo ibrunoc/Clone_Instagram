@@ -1,13 +1,14 @@
 .feed{
     float: left;
+    margin-left: 60px;
     margin-top: 20px;
-    width: 70%;
+    width: 55%;
   }
   
   .foto1{
     width: 90%;
     height: auto;
-    border: 0.1px solid #bdbdbd;
+    border: 0.1px solid #d3d3d3;
     border-radius: 7px;
   }
   
@@ -72,7 +73,9 @@
   
   .foto-feed{
     width: 100%;
-    height: 500px;
+    min-height: 400px;
+    height: auto;
+    max-height: 900px;
   }
   
   .interacao{
