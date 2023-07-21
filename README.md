@@ -23,7 +23,7 @@ Neste projeto eu fiz um clone do Instagram utilizando ReactJS.
 - [VS Code](https://code.visualstudio.com/)
 
 ## Como Usar O Projeto
-Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com), instalado em seu computador.
+Para clonar e executar este aplicativo, você precisará do [Git](https://git-scm.com) e do [NodeJS](https://nodejs.org/en), instalado em seu computador.
 
 ```bash
 # Clone esse repositório
