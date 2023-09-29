@@ -14,7 +14,6 @@ Neste projeto eu fiz um clone do Instagram utilizando ReactJS.
 - [ReactJS](https://legacy.reactjs.org/docs/getting-started.html)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Git](https://git-scm.com/docs)
-- [VS Code](https://code.visualstudio.com/)
 
 <div align="center">
   <h2><a href="https://clone-instagram-bc.vercel.app/">LINK DO PROJETO</a></h2>
